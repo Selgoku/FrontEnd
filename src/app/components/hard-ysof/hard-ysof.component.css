@@ -1,0 +1,21 @@
+.row{
+    background-color:rgb(97, 97, 97);
+    padding: 20px;
+}
+
+.title{
+    background-color:rgb(97, 97, 97);
+    padding: 20px;
+}
+
+.circulo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+}
+
+#editar{
+    align-items: center;
+ }
