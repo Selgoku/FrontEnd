@@ -32,7 +32,7 @@ export class EditAcercaDeComponent implements OnInit {
       data => {
         this.router.navigate(['']);
       }, err =>{
-        alert ("Error al modificar");
+        alert ("Error al modificar, asegurese que los campos esten todos completos");
         this.router.navigate(['']);
       }
     )

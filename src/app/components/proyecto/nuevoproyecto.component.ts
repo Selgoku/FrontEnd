@@ -28,7 +28,7 @@ export class NuevoproyectoComponent implements OnInit {
         alert("Proyecto añadido correctamente");
         this.router.navigate(['']);
       }, err =>{
-        alert("Error");
+        alert("Error. Debe rellenar todos los campos");
       }
     )
     this.imageService.clearUrl();
